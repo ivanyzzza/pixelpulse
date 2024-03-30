@@ -15,6 +15,10 @@
         text-align: center;
     }
 
+    .sredina{
+        margin-top:0px;
+    }
+
     .mojaPozadina .mojaKlasa2{
             display: flex;
             justify-content: center;
