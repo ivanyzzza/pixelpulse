@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-image: url('/img/pxfuel\ \(1\).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slika{
+    clip-path: polygon(10% 0, 0 100%, 100% 100%, 100% 0);
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.bgwhite{
+    background-color: white;
+}
+
+.mojaKlasa{
+    outline: 1px solid #fff;
+    background-color: rgb(36, 0, 37);
+    color: white;
+}
+
+.mojaKlasa:hover{
+    color: black;
+    background-color: white;
+}
+
+.mojUnderline{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.carousel-item {
+    height: 300px;
+}
+.carousel-inner img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.mojaPozadina {
+    background-color: rgba(36, 0, 37, 0.729);
+}
+
+.textWhite{
+    color: white;
+}
+
+.underline{
+    display: inline-block;
+    position:relative;
+}
+
+.underline::before{
+    content:"";
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 0%;
+    height:2px;
+    background-color: #fff;
+    transition:width 0.2s ease-out;
+}
+
+.underline:hover::before{
+    width:100%;
+}
+
+.navlink{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbrand{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    margin: 0px auto;
+}
+
+.navbar-toggler{
+    background-color: #67556a;
+}
+
+.btn-outline-secondary:hover{
+    background-color: rgb(94, 7, 132);
+}
+
+.btn-outline-secondary{
+    border: solid 1px black;
+    color: white;
+}
+
+.ikonica{
+    width: 50px;
+}
+
+.testimonial {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-number {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-author {
+    font-size: 16px;
+    font-style: italic;
+    color: #666;
+  }
+
+  .testimonial-img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .mojaPozSl1{
+    background-image: url(../img/user1.jpg);
+  }
+
+  .mojaPozSl2{
+    background-image: url(../img/user2.jpg);
+  }
+
+  .mojaPozSl3{
+    background-image: url(../img/user3.jpg);
+  }
+
+  .mojDiv{
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .footer a {
+    text-decoration: none;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #ccc;
+}
+
+.mojUnderline2{
+    text-decoration: underline;
+}
+
+.footer-column {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-column:last-child {
+    margin-right: 0;
+}
+
+.footer-info {
+    margin-top: 20px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.gameroom img{
+    width:400px;
+}
+.image-container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease;
+  }
+
+  .pricing {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+  .pricing .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .pricing .card-body {
+    text-align: center;
+  }
+  .card-title {
+    color: #333;
+  }
+  .card-text {
+    font-size: 24px;
+    color: #007bff;
+  }
+  .card-features {
+    margin-top: 20px;
+  }
+
+  .fa-inverse1 {
+    color: #000;
+}
+
+.aktivan{
+  text-decoration: underline;
+  text-underline-offset: 13.3px;
+}
+
+.textOrange{
+  color: orange;
+}
+
+#map {
+  height: 400px; /* Adjust the height as needed */
+  width: 100%;
+}
+
+.widthh{
+  width: 100%;
+}
+
+#message {
+  resize: none;
+}
+
+.mojaSlika img{
+  width: 300px;
+}
