@@ -262,3 +262,18 @@ p{
 .sredina {
   margin-top: 100px;
 }
+
+.mojaPozadina2{
+  background-color: rgba(36, 0, 37, 1);
+  color: white;
+}
+
+.mojClose {
+  background-image: url('../img/close.png');
+  opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
