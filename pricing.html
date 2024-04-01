@@ -71,7 +71,7 @@
                   <div class="card-feature"><i class="fa fa-check"></i> Weekly updates</div>
                   <div class="card-feature"><i class="fa fa-times"></i> Limited game selection</div>
                   <br/>
-                  <a href = "#" class="btn btn-md px-2 fw-bold mojaKlasa">Choose Plan</a>
+                  <a href = "#" class="btn btn-md px-2 fw-bold mojaKlasa" data-bs-toggle="modal" data-bs-target="#planBasic">Choose Plan</a>
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@
                   <div class="card-feature"><i class="fa fa-check"></i> Daily updates</div>
                   <div class="card-feature"><i class="fa fa-check"></i> Expanded game selection</div>
                   <br/>
-                  <a href = "#" class="btn btn-md px-2 fw-bold mojaKlasa">Choose Plan</a>
+                  <a href = "#" class="btn btn-md px-2 fw-bold mojaKlasa" data-bs-toggle="modal" data-bs-target="#planPro">Choose Plan</a>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@
                   <div class="card-feature"><i class="fa fa-check"></i> Daily updates</div>
                   <div class="card-feature"><i class="fa fa-check"></i> Full game selection</div>
                   <div class="card-feature"><i class="fa fa-check"></i> Exclusive features</div>
-                  <a href = "#" class="btn btn-md px-2 fw-bold mojaKlasa">Choose Plan</a>
+                  <a href = "#" class="btn btn-md px-2 fw-bold mojaKlasa" data-bs-toggle="modal" data-bs-target="#planPremium">Choose Plan</a>
                 </div>
               </div>
             </div>
@@ -109,6 +109,61 @@
         </div>
       </div>
 
+      <div class="modali">
+        <!-- Basic plan -->
+        <div class="modal fade" id="planBasic" tabindex="-1" aria-labelledby="PlanBasicModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content shadow-lg mojaPozadina2">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="PlanBasicModalLabel">Successful!</h5>
+                      <button type="button" class="btn-close mojClose" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <p>You chose basic plan!</p>
+                  </div>
+                  <div class="modal-footer">
+                    <a class="btn mojaKlasa" data-bs-dismiss="modal">Close</a>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Pro plan -->
+        <div class="modal fade" id="planPro" tabindex="-1" aria-labelledby="PlanProModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content shadow-lg mojaPozadina2">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="PlanBasicModalLabel">Successful!</h5>
+                  <button type="button" class="btn-close mojClose" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p>You chose pro plan!</p>
+              </div>
+              <div class="modal-footer">
+                <a class="btn mojaKlasa" data-bs-dismiss="modal">Close</a>
+            </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Premium plan -->
+        <div class="modal fade" id="planPremium" tabindex="-1" aria-labelledby="PlanPremiumModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content shadow-lg mojaPozadina2">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="PlanBasicModalLabel">Successful!</h5>
+                  <button type="button" class="btn-close mojClose" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p>You chose premium plan!</p>
+              </div>
+              <div class="modal-footer">
+                <a class="btn mojaKlasa" data-bs-dismiss="modal">Close</a>
+            </div>
+              </div>
+          </div>
+        </div>
+      </div>
       <!-- Testamenti ;p -->
       <div class="container px-4 py-5 mojaPozadina rounded-3 textWhite my-5 shadow-lg">
         <h2 class="pb-2 border-bottom">Our Reviews</h2>
