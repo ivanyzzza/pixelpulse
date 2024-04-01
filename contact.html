@@ -76,13 +76,32 @@
                     <label for="message">Message:</label>
                     <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
                   </div>
-                  <button type="submit" class="btn btn-lg px-4 fw-bold mojaKlasa widthh mt-4">Submit</button>
+                  <a class="btn btn-lg px-4 fw-bold mojaKlasa widthh mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal2">Submit</a>
                 </form>
               </div>
               <div class="col-md-6 mapa">
                 <div id="map"></div>
               </div>
             </div>
+          </div>
+
+
+        <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content shadow-lg mojaPozadina2">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel2">Sent!</h5>
+                          <button type="button" class="btn-close mojClose" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <p>Message has been sent successfully!</p>
+                      </div>
+                      <div class="modal-footer">
+                          <a class="btn mojaKlasa" data-bs-dismiss="modal">Close</a>
+                      </div>
+                  </div>
+              </div>
           </div>
           
         <!-- Skripta za mapu -->
